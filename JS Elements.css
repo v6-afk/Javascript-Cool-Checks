@@ -1,0 +1,128 @@
+section {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+section input {
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    width: 250px;
+}
+
+
+.tooltip-wrapper {
+      position: relative;
+      display: block;
+      cursor: pointer;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+    .line-breaker {
+        
+        width:fit-content;
+        margin: 0 auto;
+        
+    }
+
+    .tooltip-box {
+      visibility: hidden;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 6px 10px;
+      border-radius: 4px;
+      position: absolute;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.2s;
+      white-space: nowrap;
+      z-index: 100;
+    }
+
+    
+    .tooltip-wrapper:hover .tooltip-box {
+      visibility: visible;
+      opacity: 1;
+    }
+
+.custom-popup {
+  position: fixed;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.custom-popup-box {
+  background: #fff;
+  padding: 20px 30px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px #000;
+}
+
+/* This part shows the history of the calc */
+#historyContainer {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  max-width: 90%;
+  width: fit-content;
+  font-family: sans-serif;
+  background: #f9f9f9;
+  border-radius: 6px;
+}
+#historyList div {
+  margin-bottom: 6px;
+  padding: 4px 8px;
+  background-color: #e6f7ff;
+  border-left: 3px solid #1890ff;
+}
+
+#p1 {
+
+      position: relative;
+      display: block;
+      width:fit-content;
+      margin: 0 auto;
+
+  }
+
+#p2 {
+      visibility: hidden;
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 6px 10px;
+      border-radius: 4px;
+      position: absolute;
+      transform: translateX(-50%);
+      opacity: 0;
+      transition: opacity 0.4s ease-out;
+      white-space: nowrap;
+      z-index: 100;
+}
+
+/* This houses the data of current mouse coordinates */
+
+#mouseXY {
+  position: fixed;
+  background: #333;
+  color: wheat;
+  padding: 6px 10px;
+  border-radius: 4px;
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+  z-index: 9999;
+}
