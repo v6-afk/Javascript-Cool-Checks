@@ -1,0 +1,119 @@
+* {
+font-family: 'Poppins', -apple-system,'Segoe UI';
+
+}
+
+
+
+#navbar {
+position: relative;
+  
+}
+
+#scroller {
+
+border-bottom: 2px solid darkgray;
+height: 200px;
+position: absolute;
+top: 0;
+overflow: visible;
+
+}
+
+#navbar a {
+display: block;
+text-decoration: none;
+color: inherit;
+border-bottom: 1px solid black;
+padding: 10px 30px;
+opacity: .79;
+width: 100%;
+text-align: left;
+margin: 0;
+
+}
+
+#navbar ul {
+padding-left: 0;
+
+}
+
+#navbar header {
+  text-align: center;
+  font-size: 1.5em;
+}
+
+#main-doc header {
+
+  font-size: 1.5em;
+}
+
+
+#main-doc {
+box-sizing: border-box;
+padding: 4px 7% 20% 9px;
+  
+}
+
+#main-doc * :not(header) {
+padding-left: 24px;
+box-sizing: border-box;
+
+
+}
+
+#main-doc li{
+padding-left: 4px;
+margin-bottom: 1.2em;
+line-height: 1.55em;
+}
+
+#main-doc ul{
+padding-left: 13%;
+
+}
+
+#main-doc p {
+opacity: .80;
+
+}
+
+#main-doc h2{
+font-weight: 500;
+}
+
+
+#main-doc code {
+background-color: #d8d8d8;
+display: block;
+margin: auto;
+padding: 10px;
+border-radius: 10px;
+opacity: .80;
+font-family: monospace;
+line-height: 1.4em;
+}
+
+#Reference a {
+  margin-left: -23px;
+}
+
+
+@media screen and (min-width: 1000px){
+#navbar {
+float: left;
+overflow: scroll;
+height: 100%;
+width: 20%;
+position: fixed;
+
+}
+
+#main-doc {
+width: 80%;
+margin-left: 20%;
+
+}
+
+
+}
