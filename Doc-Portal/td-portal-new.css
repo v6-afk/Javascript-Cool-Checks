@@ -10,6 +10,11 @@ position: relative;
   
 }
 
+@media (min-width: 1024px) {
+  #navbar {
+    background-color: ; /* your desired color */
+  }
+}
 #scroller {
 
 border-bottom: 2px solid darkgray;
