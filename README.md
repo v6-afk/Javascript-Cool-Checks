@@ -8,3 +8,10 @@ The other projects in the directory are for testing out concepts learnt via cool
 ### Live Demo
 
 [Web Form Project](https://v6-afk.github.io/Javascript-Cool-Checks/Web-Form-Project/)
+
+## 📘 Documentation Portal
+
+A clean, stylized technical documentation webpage with responsive layout and semantic HTML.
+
+👉 [Live Demo](https://v6-afk.github.io/Javascript-Cool-Checks/Doc-Portal/)
+
