@@ -3,7 +3,7 @@ This is a unique webpage showing Cool things that can be done with simple JS on 
 
 IF YOU HAVE ANY COOL IDEAS YOU THINK THE KIDS WOULD FIND AWESOME, KINDLY INCLUDE IT PLS 👱‍♂️
 ===========================================================================================================
-The other projects in the directory are for testing out concepts learns vi cool checks
+The other projects in the directory are for testing out concepts learnt via cool checks
 
 ### Live Demo
 
